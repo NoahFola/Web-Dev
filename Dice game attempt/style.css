@@ -1,0 +1,27 @@
+body{
+    background-color: #3a3845;
+}
+h1{
+    color: rgb(16, 223, 178);
+    font-family: cursive;
+    text-align: center;
+    font-size: 5.5rem;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+}
+p{
+    color: rgb(16, 223, 178);
+    font-family: cursive;
+    font-size: 140%;
+}
+.img {
+    display: inline-block;
+}
+
+.master_div{
+    width: 100%;
+    text-align: center;
+}

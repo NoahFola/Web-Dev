@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <style>
+      body, html {
+          height: 100%;
+          margin: 0;
+          display: flex;
+          justify-content: center; /* Horizontally center the container */
+          align-items: center;    /* Vertically center the container */
+          background-color: #f8f9fa; /* Optional: a light gray background */
+      }
+
+      .container {
+          text-align: center; /* Center the text within the container */
+          padding: 20px;
+          background-color: #ffffff; /* White background for the container */
+          border-radius: 8px; /* Rounded corners */
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      }
+
+      .container img {
+          max-width: 100px; /* Limit the width of the logo */
+          margin-bottom: 20px; /* Space between the logo and heading */
+      }
+
+      .container h1 {
+          margin-bottom: 20px; /* Space between the heading and the form */
+          font-size: 24px;
+      }
+
+      .container input {
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ced4da;
+          border-radius: 4px;
+      }
+
+      .container button {
+          width: 100%;
+          padding: 10px;
+          background-color: #007bff;
+          color: #ffffff;
+          font-size: 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+
+      .container button:hover {
+          background-color: #0056b3;
+      }
+    </style>
+
+    <div class="container">
+        <img src="N.png" alt="Newsletter logo">
+        <h1 class="inline">Please sign in</h1>
+        <form action="/" method="post">
+            <input name="fname" type="text" placeholder="First Name">
+            <input name="lname" type="text" placeholder="Last Name">
+            <input type="email" placeholder="Email" name="email">
+            <button>Sign up</button>
+        </form>
+    </div>
+    
+</body>
+</html>
